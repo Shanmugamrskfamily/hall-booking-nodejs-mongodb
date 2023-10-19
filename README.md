@@ -1,6 +1,6 @@
 # Hall_Booking
 
-API endPoints
+## API endPoints
 
 - create-room
 
@@ -13,6 +13,8 @@ API endPoints
 - customers-with-bookings
 
 - customer-booking-history/:customerName
+
+## URL
 
 Backend Link: https://hall-booking-x7pr.onrender.com
 
