@@ -114,8 +114,9 @@ app.get('/customers-with-bookings',(req,res)=>{
 //Route to list how many times a customer has booked a room with details
 app.get('/customer-booking-history/:customerName',(req,res)=>{
   const customerName=req.params.customerName;
+  console.log(customerName);
   const customerBookingHistory=
-    bookings.filter((booking)=>booking.customerName===customerName );
+    bookings.filter((booking)=>booking.customerName === customerName );
     res.json(customerBookingHistory);
 });
 app.listen(PORT,()=>{
